@@ -16,10 +16,13 @@
                 <th>Visit Time</th>
                 <th>Firstname</th>
                 <th>Surname</th>
+                <th>Doctor First name</th>
+                <th>Doctor Surname</th>
+                <th>Specialism</th>
               </tr>
             </thead>
             <tbody>
-              <?php include("visitListWithNames.php");?>
+              <?php include("visitList.php");?>
             </tbody>
           </table>
        </div>
